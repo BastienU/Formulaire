@@ -1,0 +1,117 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem "Roboto", sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+.inner-form form input:focus{
+    outline: 0;
+    box-shadow: 0 0 2rem rgb(252, 96, 228);
+}
+.inner-form form input[type="submit"]:focus{
+    box-shadow: 0;
+}
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+input[type="submit"]{
+    border: 0;
+    background: none;
+    font-size: inherit;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* thème */
+header h1{
+    text-align: center;
+    left: 7.8rem;
+}
+.inner-form fieldset{
+    border-radius: 1rem;
+    border: solid .1rem rgb(38, 109, 241);
+}
+.inner-form fieldset legend{
+    border-radius: 1rem;
+    font-size: large;
+    font-variant: small-caps; /* petites capitales */
+}
+.inner-form form *{
+    display: block;
+}
+.inner-form{
+    max-width: 90rem;
+    margin: 5rem auto 2rem;
+}
+.inner-form form input{
+    /* border: solid .1rem #333; */
+    width: 100%;
+    line-height: 3.5rem;
+    padding: .5rem;
+    transition: all .6s ease-in-out;
+}
+.inner-form form input[type="text"], /* champs */
+.inner-form form input[type="tel"],
+.inner-form form input[type="date"],
+.inner-form form input[type="email"]{
+    border-bottom: solid .1rem #333;
+   /* background-color: #ccc; */
+   width: 40%;
+}
+.inner-form form [placeholder]{
+    font-style: italic;
+    transition: all .6s ease-in-out;
+
+}
+.inner-form form [placeholder]:focus{ /* sert a gerer la police de la saisie */
+    font-style: italic;
+}
+.inner-form form input:focus:not(.inner-form form input[type="submit"],
+.inner-form form input[type="checkbox"]){
+    outline: 0;
+    box-shadow: 0 0 2rem rgb(252, 96, 228);
+    width: 100%;
+    border-bottom: solid .1rem rgb(79, 79, 79);
+}
+.inner-form form input[type="checkbox"]{
+    width: auto;
+    display: inline-block;
+}
+.inner-form form label{
+    margin: 1rem 0;
+    display: inline-block;
+}
+.inner-form .inner-form form label{
+    margin: 1rem 0;
+}
+.inner-form .inner-form form label:nth-last-child(1){
+    display: inline-block;
+}
+.inner-form form label.condition{
+    display: inline-block;
+}
+/* send button */
+.inner-form form input[type="submit"]{
+    background-color: rgb(59, 88, 151);
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 35%;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: .4rem;
+    font-size: medium;
+}
+footer p{
+    text-align: center;
+}
