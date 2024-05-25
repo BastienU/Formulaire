@@ -5,6 +5,6 @@ Réalisation d'une page web pour créer un formulaire d'inscription. L'objectif 
 Charte graphique : ![Charte graphique](./asset/CGFormulaire.png)
 
 Charte typographique :  
-Monserrat sans-serif 16px.
+Roboto sans-serif 16px.
 
-[Lien vers le github du projet](https://bastienu.github.io/batmanBegins/)
+[Lien vers le projet](https://bastienu.github.io/Formulaire/)
